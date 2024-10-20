@@ -1,0 +1,180 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IC Hello Starter</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool News App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/800x300/0000FF/FFFFFF/?text=Breaking+News') no-repeat center center/cover;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #e63946;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .news-item {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .news-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .news-item img {
+            width: 100%;
+        }
+
+        .news-item h3 {
+            padding: 15px;
+            font-size: 1.5em;
+        }
+
+        .news-item p {
+            padding: 0 15px 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daily News</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Entertainment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="color: black;">
+            <h2>Breaking News: Major Event Happening Now!</h2>
+            <p>Details about the major event that is currently taking place. Stay tuned for more updates.</p>
+            <a href="#" class="read-more">Read More</a>
+        </section>
+
+        <section class="news-grid">
+            <article class="news-item">
+              <img src="https://img.freepik.com/premium-vector/cool-modern-breaking-news-text-effect-editable-news-text-style-blue-white-gradient_115973-4739.jpg?w=996" alt="News Image 1">
+                <h3>News Title 1</h3>
+                <p>Brief description of the news article. Click to read more about it.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="news-item">
+              <img src="https://img.freepik.com/premium-vector/cool-modern-breaking-news-text-effect-editable-news-text-style-blue-white-gradient_115973-4739.jpg?w=996" alt="News Image 2">
+                <h3>News Title 2</h3>
+                <p>Brief description of the news article. Click to read more about it.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="news-item">
+              <img src="https://img.freepik.com/premium-vector/cool-modern-breaking-news-text-effect-editable-news-text-style-blue-white-gradient_115973-4739.jpg?w=996" alt="News Image 3">
+                <h3>News Title 3</h3>
+                <p>Brief description of the news article. Click to read more about it.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="news-item">
+              <img src="https://img.freepik.com/premium-vector/cool-modern-breaking-news-text-effect-editable-news-text-style-blue-white-gradient_115973-4739.jpg?w=996" alt="News Image 4">
+                <h3>News Title 4</h3>
+                <p>Brief description of the news article. Click to read more about it.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Daily News. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
